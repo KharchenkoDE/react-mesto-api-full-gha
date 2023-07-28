@@ -1,0 +1,22 @@
+.header__open-submenu-button {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    display: none;
+    cursor: pointer;
+    transition: opacity 300ms linear;
+}
+
+.header__open-submenu-button:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 767px) {
+    .header__open-submenu-button {
+        margin-right: 30px;
+        margin-top: 5px;
+        display: block;
+    }
+}

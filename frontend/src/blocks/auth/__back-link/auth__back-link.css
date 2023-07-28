@@ -1,0 +1,19 @@
+.auth__back-link {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  max-width: 358px;
+  margin: 15px 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .auth__back-link {
+    margin-top: 20px;
+  }
+}

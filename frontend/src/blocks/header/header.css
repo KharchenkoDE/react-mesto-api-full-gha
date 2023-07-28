@@ -1,0 +1,21 @@
+.header {
+    width: calc(100% - 38px);
+    max-width: 880px;
+    min-height: 74px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+    display: flex;
+    justify-content: space-between;
+    padding: 0
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding-top: 28px;
+        min-height: 56px;
+        width: 100%;
+    }
+    .header:nth-child(.header__logo-container) {
+        margin-top: -27px;
+    }
+}

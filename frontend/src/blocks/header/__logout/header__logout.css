@@ -1,0 +1,13 @@
+.header__logout {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: right;
+    background: none;
+    border: none;
+    color: #a9a9a9;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.auth__input {
+    color: #ccc;
+    background-color: transparent;
+    border: none;
+    margin: 0 auto 30px;
+    border-bottom: 2px solid #CCCCCC;
+    outline: none;
+    padding-bottom: 10px;
+    width: 358px;
+}
+
+.auth__input:last-child {
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .auth__input {
+        width: 260px;
+    }
+}
+    
