@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://auth.nomoreparties.co';
+export const BASE_URL = 'https://api.kharchenkode-pw15.nomoredomains.sbs';
 
 function checkError(res) {
   if (res.ok) {
