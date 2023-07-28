@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP 84.201.178.229
 
-Frontend https://...
+Frontend https://kharchenkode-pw15.nomoredomains.sbs
 
-Backend https://...
+Backend https://api.kharchenkode-pw15.nomoredomains.sbs
