@@ -6,6 +6,7 @@ const { errors } = require('celebrate');
 const router = require('./routes');
 const UnknowError = require('./middlewares/unknow-error');
 const { PORT, DATA_BASE_URI } = require('./config');
+const cors = require('cors');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
 const app = express();
